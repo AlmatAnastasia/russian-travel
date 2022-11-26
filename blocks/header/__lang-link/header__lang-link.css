@@ -1,6 +1,6 @@
 .header__lang-link {
-    height: 100%; /* height: 28px; */
-    width: 100%; /* width: 30px; */
+    height: 100%;
+    /* height: 28px; */ width: 100%; /* width: 30px; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -11,7 +11,7 @@
      * line-height: 1.4;
      */
     text-align: right;
-    text-decoration: none;
+    color: #FFF;
 }
 
 @media screen and (max-width: 425px) {
@@ -20,7 +20,7 @@
         /* 320px */
         height: 100%; /* height: 20px; */
         width: 100%; /* width: 22px; */
-        /* font-size: 18px; */
-        font-size: 1.25em;
+        font-size: 18px;
+        line-height: 20px;
     }
 }
