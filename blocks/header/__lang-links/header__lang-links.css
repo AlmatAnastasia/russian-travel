@@ -1,0 +1,16 @@
+.header__lang-links {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 30px);
+    grid-template-rows: 28px;
+    column-gap: 18px;
+}
+
+@media screen and (max-width: 425px) {
+
+    .header__lang-links {
+        /* 320px */
+        grid-template-columns: repeat(2, 22px);
+        grid-template-rows: 20px;
+    }
+}
