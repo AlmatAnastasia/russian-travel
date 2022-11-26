@@ -1,0 +1,43 @@
+/* 5 интервал: от 1280 пикселей — от стандартных ноутбуков и до бесконечности */
+/* 4 интервал: от 1024 и до 1280 — для небольших ноутбуков */
+.header {
+    margin: 0;
+    min-height: 0.76%; /* min-height: 52px; */
+    max-width: 92.5%; /* max-width: 1184px; */
+    padding: 28px 48px 56px 48px; /* padding: 28px 48px 56px 48px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+/* 3 интервал: от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета */
+@media screen and (max-width: 1024px) {
+
+    .header {
+        /* 1024px */
+        max-width: 90.625%; /* max-width: 928px; */
+        padding-bottom: 48px;
+    }
+}
+
+/* 2 интервал: от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета */
+@media screen and (max-width: 768px) {
+
+    .header {
+        /* 768px */
+        max-width: 93.75%; /* max-width: 720px; */
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+/* 1 интервал: до 425 пикселей — мобильные устройства */
+@media screen and (max-width: 425px) {
+
+    .header {
+        /* 320px */
+        min-height: 0.42%; /* min-height: 42px; */
+        max-width: 90%; /* max-width: 288px; */
+        padding: 16px 16px 48px 16px;
+    }
+}

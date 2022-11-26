@@ -1,0 +1,14 @@
+.header__image {
+    width: 14.86%; /* width: 176px; */
+    height: 52px;
+    background-size: cover;
+}
+
+@media screen and (max-width: 425px) {
+
+    .header__image {
+        /* 320px */
+        width: 33.41%; /* width: 142px; */
+        height: 42px;
+    }
+}
