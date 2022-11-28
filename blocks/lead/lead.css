@@ -10,7 +10,6 @@
 @media screen and (max-width: 1024px) {
 
     .lead {
-        /* 1024px */
         padding: 48px 48px 0 48px;
         max-height: 962px;
         max-width: calc(100vw - 2* 48px); /* max-width: 928px; */
@@ -20,7 +19,6 @@
 @media screen and (max-width: 768px) {
 
     .lead {
-        /* 768px */
         padding: 0;
         padding-top: 48px;
         max-height: 862px;
@@ -31,7 +29,6 @@
 @media screen and (max-width: 425px) {
 
     .lead {
-        /* 320px */
         padding: 0;
         padding-top: 48px;
         max-height: 406px;

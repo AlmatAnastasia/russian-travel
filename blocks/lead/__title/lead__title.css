@@ -14,7 +14,6 @@
 @media screen and (max-width: 1024px) {
 
     .lead__title {
-        /* 1024px */
         padding-top: 9px;
     }
 }
@@ -22,7 +21,6 @@
 @media screen and (max-width: 768px) {
 
     .lead__title {
-        /* 768px */
         padding-top: 6px;
     }
 }
@@ -30,7 +28,6 @@
 @media screen and (max-width: 425px) {
 
     .lead__title {
-        /* 320px */
         padding-top: 2px;
         min-height: 88px; /* height: 88px; */ 
         max-width: 288px; /* width: 288px; */
