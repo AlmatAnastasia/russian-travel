@@ -1,6 +1,6 @@
 .header__lang-link_active {
     text-decoration-line: underline;
-    text-underline-offset: 0.18em;
+    text-underline-offset: 0.19em;
 }
 
 @media screen and (max-width: 425px) {

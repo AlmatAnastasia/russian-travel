@@ -1,0 +1,35 @@
+.place__website {
+    max-height: 46px; /* height: 46px; */
+    max-width: 456px; /* width: 456px; */
+    align-self: end;
+    padding-bottom: 10px;
+    text-underline-offset: 0.3em;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .place__website {
+        padding-bottom: 10px;
+        text-underline-offset: 0.2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .place__website {
+        max-height: 68px; /* height: 68px; */
+        max-width: 352px; /* width: 352px; */
+        padding-bottom: 10px;
+        text-underline-offset: 0.2em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .place__website {
+        max-height: 46px; /* height: 46px; */
+        max-width: 288px; /* width: 288px; */
+        padding-bottom: 10px;
+        text-underline-offset: 0.2em;
+    }
+}

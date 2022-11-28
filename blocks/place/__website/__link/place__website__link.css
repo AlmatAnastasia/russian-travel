@@ -1,0 +1,19 @@
+.place__website__link {
+    margin-top: 12px;
+    max-width: 456px; /* width: 456px; */
+    min-height: 22px; /* height: 22px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem; /* font-size: 18px; */
+    line-height: 1.3; /* line-height: 22px; */
+    text-decoration-line: underline;
+    color: #FFF;
+}
+
+@media screen and (max-width: 768px) {
+
+    .place__website__link {
+        line-height: 1.6; /* line-height: 22px; */   
+    }
+}
