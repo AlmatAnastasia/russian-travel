@@ -1,6 +1,6 @@
 .header__image {
-    min-width: 14.86%; /* width: 176px; */
     max-height: 52px;
+    min-width: 14.86%; /* width: 176px; */
     background-size: cover;
 }
 
@@ -9,6 +9,6 @@
     .header__image {
         /* 320px */
         max-height: 42px;
-        min-width: 142px; /* width: 142px; */
+        min-width: 49.3%; /* width: 142px; */
     }
 }
