@@ -1,0 +1,16 @@
+.intro__text {
+    margin: 0;
+    padding-top: 40px;
+    min-height: 208px; /* height: 208px; */ 
+    width: 100%; /* width: 690px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem; /* font-size: 16px; */
+    line-height: 1.6; /* line-height: 163%; */
+}
+
+.intro__text {
+    /* 320px */
+    line-height: 1.62; /* line-height: 163%; */
+}
