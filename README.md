@@ -10,6 +10,8 @@
 <a href="#demo">Демонстрация</a>
 <br>
 <a href="#file_structure">Файловая структура</a>
+<br>
+<a href="#technologies">Использованные технологии</a>
 </p>
 
 <div id="description"></div>
