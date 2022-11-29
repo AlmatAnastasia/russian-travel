@@ -46,7 +46,7 @@
 @import url("../blocks/place/__website/__url-heading/place__website__url-heading.css");
 @import url("../blocks/place/__website/__link/place__website__link.css");
 @import url("../blocks/place/__text/place__text.css");
-@import url("../blocks/place/__text/__paragraph/text__paragraph.css");
+@import url("../blocks/place/__text/__paragraph/place__text-paragraph.css");
 
 /* подключаем стили блока cover */
 @import url("../blocks/cover/cover.css");
