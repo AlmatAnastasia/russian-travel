@@ -1,7 +1,7 @@
 .intro {
     padding-top: 92px;
     padding-left: 148px;
-    min-height: 429px; /* height: 429px; */
+    max-height: 429px; /* height: 429px; */
     max-width: 690px; /* width: 690px; */
     text-align: left;
 }
@@ -17,7 +17,7 @@
 
     .intro {
         padding: 88px 24px 0 24px;
-        max-width: 720px; /* width: 720px; */
+        max-width: calc(100vw - 2 * 24px); /* width: 720px; */
     }
 }
 
@@ -26,6 +26,6 @@
     .intro {
         padding: 64px 16px 0 16px;
         min-height: 754px; /* height: 754px; */
-        max-width: 288px; /* width: 288px; */
+        max-width: calc(100vw - 2 * 16px); /* width: 288px; */
     }
 }

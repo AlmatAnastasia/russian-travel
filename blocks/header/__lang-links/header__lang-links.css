@@ -14,5 +14,6 @@
         padding-top: 14px;
         grid-template-columns: repeat(2, 22px);
         grid-template-rows: 20px;
+        align-self: start;
     }
 }

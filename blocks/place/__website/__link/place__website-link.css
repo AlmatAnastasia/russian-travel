@@ -1,7 +1,7 @@
 .place__website-link {
-    margin-top: 12px;
+    padding-top: 12px;
     max-width: 456px; /* width: 456px; */
-    min-height: 22px; /* height: 22px; */
+    max-height: 22px; /* height: 22px; */
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;

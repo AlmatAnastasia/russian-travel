@@ -4,6 +4,7 @@
     max-width: calc(100vw - 2* 48px); /* width: 1184px; */
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 768px) {
