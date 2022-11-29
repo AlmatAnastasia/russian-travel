@@ -1,4 +1,4 @@
-.place__website__url-heading {
+.place__website-url-heading {
     margin: 0;
     max-width: 456px; /* width: 456px; */
     min-height: 12px; /* height: 12px; */
@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 768px) {
 
-    .place__website__url-heading {
+    .place__website-url-heading {
         line-height: 1; /* line-height: 12px; */
     }
 }

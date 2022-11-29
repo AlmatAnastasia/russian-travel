@@ -1,4 +1,4 @@
-.place__website__link {
+.place__website-link {
     margin-top: 12px;
     max-width: 456px; /* width: 456px; */
     min-height: 22px; /* height: 22px; */
@@ -13,12 +13,12 @@
 
 @media screen and (max-width: 768px) {
 
-    .place__website__link {
+    .place__website-link {
         line-height: 2.7; /* line-height: 22px; */
     }
 }
 
 /* стили при наведении курсора */
-.place__website__link:hover {
+.place__website-link:hover {
     opacity: 0.8;
 }
