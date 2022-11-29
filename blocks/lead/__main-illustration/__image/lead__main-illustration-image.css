@@ -1,6 +1,6 @@
 .lead__main-illustration-image {
     margin: 0 auto;
-    max-height: 96%; /* height: 615px; */
+    max-height: 615px; /* height: 615px; */
     width: 100%; /* width: 984px; */
 }
 
@@ -9,7 +9,6 @@
     .lead__main-illustration-image {
         /* 1024px */
         max-height: 96%; /* height: 580px; */
-        width: 100%; /* width: 928px; */
     }
 }
 
@@ -18,7 +17,6 @@
     .lead__main-illustration-image {
         /* 768px */
         max-height: 96%; /* height: 480px; */
-        width: 100%; /* width: 768px; */
     }
 }
 
@@ -26,7 +24,6 @@
 
     .lead__main-illustration-image {
         /* 320px */
-        height: 200px;
-        width: 320px;
+        max-height: 200px; /* height: 200px; */
     }
 }
