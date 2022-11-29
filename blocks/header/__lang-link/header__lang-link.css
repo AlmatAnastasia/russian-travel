@@ -1,5 +1,5 @@
 .header__lang-link {
-    padding-left: 2px;
+    text-indent: 2px;
     height: 100%; /* height: 28px; */ 
     width: 100%; /* width: 30px; */
     font-family: 'Inter';
@@ -16,7 +16,7 @@
 
     .header__lang-link {
         /* 320px */
-        padding-left: 0.5px;
+        text-indent: 0.5px;
         height: 100%; /* height: 20px; */
         width: 100%; /* width: 22px; */
         font-size: 1.125rem; /* font-size: 18px; */

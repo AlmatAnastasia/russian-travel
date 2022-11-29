@@ -2,13 +2,6 @@
     padding-top: 48px;
 }
 
-@media screen and (max-width: 768px) {
-
-    .place__text {
-        padding-top: 34px; /* */
-    }
-}
-
 @media screen and (max-width: 425px) {
 
     .place__text {

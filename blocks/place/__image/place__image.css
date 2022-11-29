@@ -18,10 +18,6 @@
         min-height: 340px; /* height: 340px; */
         max-width: 340px; /* width: 340px; */
     }
-
-    .place__image:nth-child(2) {
-        margin-top: 10px; /* margin-top: 48px; */
-    }
 }
 
 @media screen and (max-width: 425px) {

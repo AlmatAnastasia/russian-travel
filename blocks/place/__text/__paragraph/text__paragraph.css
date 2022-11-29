@@ -22,14 +22,22 @@
 @media screen and (max-width: 768px) {
 
     .text__paragraph {
-        font-size: 1rem; /* font-size: 16px; */
         min-width: 352px; /* width: 352px; */
+        font-size: 1rem; /* font-size: 16px; */
     }
 }
 
 @media screen and (max-width: 425px) {
 
     .text__paragraph {
+        padding-left: 16px;
         min-width: 288px; /* width: 288px; */
+        line-height: 1.4; /* line-height: 163%; */
+        letter-spacing: 1.1px;
     }
+
+    .text__paragraph:nth-child(1) {
+        padding-bottom: 1.5625rem; /* padding-bottom: 25px; */
+    }
+    
 }

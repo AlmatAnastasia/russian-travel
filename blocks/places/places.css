@@ -4,7 +4,7 @@
     min-height: 3392px; /* height: 3392px; */
     max-width: calc(100vw - 2 * 148px); /*  width: 984px; */
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, max-content);
     row-gap: 80px; 
 }
 
@@ -17,8 +17,6 @@
     }
 }
 
-/* !!! */
-
 @media screen and (max-width: 768px) {
 
     .places {
@@ -28,6 +26,7 @@
         max-width: calc(100vw - 2 * 24px); /*  width: 720px; */
         row-gap: 73px;
     }
+
 }
 
 @media screen and (max-width: 425px) {
