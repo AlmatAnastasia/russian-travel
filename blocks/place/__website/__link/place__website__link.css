@@ -17,3 +17,8 @@
         line-height: 2.7; /* line-height: 22px; */
     }
 }
+
+/* стили при наведении курсора */
+.place__website__link:hover {
+    opacity: 0.8;
+}
