@@ -1,8 +1,7 @@
 .intro {
     padding-top: 92px;
     padding-left: 148px;
-    max-height: 429px; /* height: 429px; */
-    max-width: 690px; /* width: 690px; */
+    max-width: 690px;
     text-align: left;
 }
 
@@ -25,7 +24,6 @@
 
     .intro {
         padding: 64px 16px 0 16px;
-        min-height: 754px; /* height: 754px; */
         max-width: calc(100vw - 2 * 16px); /* width: 288px; */
     }
 }

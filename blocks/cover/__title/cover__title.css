@@ -1,8 +1,7 @@
 .cover__title {
     margin: 0 auto;
-    min-height: 152px;
     max-width: 560px;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 4.5rem;
@@ -10,22 +9,18 @@
     text-align: center;
 }
 
-/* 1280 - width: 560px; */
-/* 320 - width: 288px; */
-@media screen and (min-width: 320px) and (max-width: 1280px) {
+/* 768 - font-size: 72px; */
+/* 320 - font-size: 32px; */
+@media screen and (min-width: 320px) and (max-width: 768px) {
 
     .cover__title {
-        height: calc( (100vw - 320px)/(1280 - 320) * (152 - 70) + 70px);
-        width: calc( (100vw - 320px)/(1280 - 320) * (560 - 288) + 288px);
-        font-size: calc( (100vw - 320px)/(1280 - 320) * (72 - 32) + 32px);
+        font-size: calc( (100vw - 320px)/(768 - 320) * (72 - 32) + 32px);
     }
 }
 
 @media screen and (max-width: 425px) {
 
     .cover__title {
-        min-height: 70px;
-        max-width: 288px;
         font-size: 2rem;
         line-height: 1; /* line-height: 35px; */
     }

@@ -1,23 +1,17 @@
 .lead__subtitle {
     margin: 0 auto;
-    font-family: 'Inter';
+    padding-top: 32px;
+    max-width: 640px;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2; /* line-height: 36px; */
     text-align: center;
 }
 
-@media screen and (min-width: 768px) {
-
-    .lead__subtitle {
-        padding-top: 32px;
-        min-height: 72px;
-        width: 640px;
-        font-size: 1.875rem; /* font-size: 30px; */
-        line-height: 1.1; /* line-height: 36px; */
-    }
-}
-
-
+/* 768 - font-size: 30px; */
+/* 320 - font-size: 16px; */
 @media screen and (max-width: 767px) {
 
     .lead__subtitle {
@@ -29,12 +23,6 @@
 
     .lead__subtitle {
         padding-top: 16px;
-        min-height: 40px;
-        max-width: calc(100vw - 2 * 16px); /* width: 288px; */
-        /* 
-         * font-size: 16px; 
-         * line-height: 20px;
-         */
-        line-height: 1.24;
+        line-height: 1.24; /* line-height: 20px; */
     }
 }

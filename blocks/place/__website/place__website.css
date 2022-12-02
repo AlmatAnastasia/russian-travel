@@ -1,8 +1,6 @@
 .place__website {
-    max-height: 46px; /* height: 46px; */
-    max-width: 456px; /* width: 456px; */
     align-self: end;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     text-underline-offset: 0.3em;
 }
 
@@ -16,18 +14,15 @@
 @media screen and (max-width: 768px) {
 
     .place__website {
-        padding-bottom: 0;
-        max-width: 352px; /* width: 352px; */
+        margin-bottom: 0;
     }
 }
 
 @media screen and (max-width: 425px) {
 
     .place__website {
-        padding-top: 35px; /* padding-top: 32px; */
-        padding-left: 16px;
-        max-height: 46px; /* height: 46px; */
-        max-width: 288px; /* width: 288px; */
+        margin-top: 32px;
+        margin-left: 16px;
         text-underline-offset: 0.2em;
         align-self: start;
     }
