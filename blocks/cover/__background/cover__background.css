@@ -49,6 +49,7 @@
     opacity: 0.3;
     /* анимация для свойства opacity */
     transition: opacity 350ms ease;
+    background-color: #2A2C2F;
 }
 
 /* стили при наведении курсора */
